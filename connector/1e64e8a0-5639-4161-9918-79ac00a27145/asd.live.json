@@ -1,0 +1,29 @@
+{
+ "entityType": "connector",
+ "category": "gsheet",
+ "live": true,
+ "data": {
+  "createdAt": "2025-11-11T12:52:42.741Z",
+  "updatedAt": "2025-11-11T12:52:57.636094Z",
+  "isDeleted": false,
+  "entityId": "1e64e8a0-5639-4161-9918-79ac00a27145",
+  "name": "asd",
+  "category": "third-party",
+  "isSource": true,
+  "isAction": true
+ },
+ "dependencies": [
+  {
+   "entityType": "connector",
+   "entityId": "1e64e8a0-5639-4161-9918-79ac00a27145",
+   "entityVersion": "live",
+   "entityNodeId": "staging",
+   "dependencyType": "credential",
+   "dependencyId": "05bdcc04-90a2-419a-a40e-5e0273e6d837",
+   "dependencyVersion": "live",
+   "isDeleted": false,
+   "createdAt": "2025-11-11T12:52:54.184662Z",
+   "updatedAt": "2025-11-11T12:52:57.641992Z"
+  }
+ ]
+}
