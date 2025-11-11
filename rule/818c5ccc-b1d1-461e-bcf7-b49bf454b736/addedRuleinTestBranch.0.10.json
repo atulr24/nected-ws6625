@@ -1,22 +1,23 @@
 {
  "entityType": "rule",
  "category": "decisionTable",
+ "live": true,
  "data": {
   "createdAt": "2025-11-11T11:38:51.606Z",
-  "updatedAt": "2025-11-11T13:02:08.224586Z",
+  "updatedAt": "2025-11-11T12:33:46.799Z",
   "isDeleted": false,
-  "testedAt": "2025-11-11T13:01:59.641Z",
-  "publishedAt": "2025-11-11T13:02:08.213Z",
+  "testedAt": "2025-11-11T11:40:34.661Z",
+  "publishedAt": "2025-11-11T12:33:46.793Z",
   "entityId": "818c5ccc-b1d1-461e-bcf7-b49bf454b736",
   "name": "addedRuleinTestBranch",
-  "commitId": "commit-a77106b0-7d91-4dc4-9034-cc43ac7ff8b0",
+  "commitId": "commit-748154e3-a43f-4281-ad78-c688ccf363f1",
   "status": "published",
   "lastVersion": "draft",
-  "isLive": true,
+  "isLive": false,
   "commitInfo": {
-   "title": "Forked from 0.10",
-   "description": "s",
-   "timeStamp": "2025-11-11T13:02:08.211Z"
+   "title": "Created at 2025-11-11 11:38:51",
+   "description": "n",
+   "timeStamp": "2025-11-11T12:33:46.791Z"
   },
   "decisionTable": {
    "rows": {
@@ -42,14 +43,6 @@
   },
   "conditions": {
    "nodes": {
-    "rule_01": {
-     "operator": "and",
-     "nodeType": "group",
-     "children": [
-      "rule_02"
-     ],
-     "siblingIndex": 1
-    },
     "rule_02": {
      "value": "",
      "name": "Any",
@@ -68,12 +61,20 @@
      "nodeType": "params",
      "attribute": "sql",
      "siblingIndex": 1
+    },
+    "rule_01": {
+     "operator": "and",
+     "nodeType": "group",
+     "children": [
+      "rule_02"
+     ],
+     "siblingIndex": 1
     }
    }
   },
   "description": "",
   "policy": "first",
-  "version": "0.30",
+  "version": "0.10",
   "type": "decisionTable",
   "dataSetId": "",
   "settings": {
